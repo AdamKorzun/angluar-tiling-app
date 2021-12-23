@@ -7,12 +7,14 @@ import { TileComponent } from './tile/tile.component';
 import { TileGridComponent } from './tile-grid/tile-grid.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
+import { SliderComponent } from './components/slider/slider.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TileComponent,
-    TileGridComponent
+    TileGridComponent,
+    SliderComponent
   ],
   imports: [
     BrowserModule,
