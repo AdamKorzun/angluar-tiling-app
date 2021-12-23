@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Tile } from './Models/tile';
+import { Tile } from '../Models/tile';
 import { BehaviorSubject, Observable, of } from 'rxjs';
 @Injectable({
   providedIn: 'root'

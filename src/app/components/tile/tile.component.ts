@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Tile } from '../Models/tile';
+import { Tile } from '../../Models/tile';
 import { Input } from '@angular/core';
-import { TileService } from '../tile.service';
 @Component({
   selector: 'app-tile',
   templateUrl: './tile.component.html',

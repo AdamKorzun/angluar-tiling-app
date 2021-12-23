@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { TileService } from 'src/app/tile.service';
+import { TileService } from 'src/app/services/tile.service';
 @Component({
   selector: 'app-slider',
   templateUrl: './slider.component.html',

@@ -1,6 +1,6 @@
 import { Component, OnInit, HostListener } from '@angular/core';
-import { Tile } from '../Models/tile';
-import { TileService } from '../tile.service';
+import { Tile } from '../../Models/tile';
+import { TileService } from '../../services/tile.service';
 @Component({
   selector: 'app-tile-grid',
   templateUrl: './tile-grid.component.html',
