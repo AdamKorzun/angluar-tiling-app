@@ -11,6 +11,8 @@ import { SliderComponent } from './components/slider/slider.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
+import { AboutComponent } from './components/about/about.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { MatButtonModule } from '@angular/material/button';
     TileComponent,
     TileGridComponent,
     SliderComponent,
-    NavbarComponent
+    NavbarComponent,
+    AboutComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
