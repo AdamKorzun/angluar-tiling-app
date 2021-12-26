@@ -1,0 +1,38 @@
+:host{
+    background: rgb(41, 41, 41);
+    display: block;
+}
+
+
+
+.wrapper-spacer{
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 44px;
+}
+a{
+    flex: 1;
+    text-decoration: none;
+    color: rgb(202, 202, 202);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;    
+}
+a:hover{
+    transition-duration: 200ms;
+    color: white;
+    /* transform: scale(1.1); */
+}
+li{
+    flex: auto;
+    height: 100%;
+
+}
+.selected{
+    color: white;
+}

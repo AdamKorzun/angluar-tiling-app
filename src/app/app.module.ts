@@ -8,19 +8,25 @@ import { TileGridComponent } from './components/tile-grid/tile-grid.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
 import { SliderComponent } from './components/slider/slider.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [
     AppComponent,
     TileComponent,
     TileGridComponent,
-    SliderComponent
+    SliderComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatSliderModule
+    MatSliderModule,
+    MatToolbarModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
